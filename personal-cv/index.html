@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homer Batawang | Personal CV</title>
+    <meta name="description" content="Personal CV webpage of Homer Batawang, BSIT 4D student.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== Navigation Bar ===== -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">HB<span>.</span></a>
+
+            <!-- Hamburger button for mobile -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section id="home" class="hero">
+        <!-- Decorative background shapes -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="container hero-content">
+            <div class="avatar">HB</div>
+            <p class="hero-greeting">👋 Hello, I'm</p>
+            <h1 class="hero-name">Homer <span class="gradient-text">Batawang</span></h1>
+            <p class="hero-tag">BSIT 4D &nbsp;|&nbsp; IT415</p>
+            <p class="hero-description">
+                BSIT student passionate about technology, software development,
+                and building practical digital solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <a href="https://github.com/batawanghomer-coder" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <svg viewBox="0 0 16 16" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down" aria-label="Scroll down">&#8595;</a>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-card reveal">
+                <p>
+                    I am a Bachelor of Science in Information Technology student interested in
+                    software development, web development, and building practical technology
+                    solutions. I am continuously developing my programming and problem-solving
+                    skills through academic and personal projects.
+                </p>
+                <p>
+                    I am currently in my fourth year at Davao del Norte State College,
+                    where I continue to learn new technologies and apply them in
+                    school and personal projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Education Section ===== -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="card education-card reveal">
+                <div class="education-icon">🎓</div>
+                <div>
+                    <h3>Davao del Norte State College</h3>
+                    <p class="education-degree">Bachelor of Science in Information Technology (BSIT)</p>
+                    <p class="education-year">2026 – 2027</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Technical Skills</h2>
+            <p class="section-subtitle reveal">
+                Technologies I have learned and used in academic and personal projects.
+            </p>
+
+            <div class="skills-grid">
+                <div class="card skill-card reveal">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming &amp; Development</h3>
+                    <div class="badges">
+                        <span class="badge">Dart</span>
+                        <span class="badge">TypeScript</span>
+                        <span class="badge">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="card skill-card reveal">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <div class="badges">
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">TSX</span>
+                    </div>
+                </div>
+
+                <div class="card skill-card reveal">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools &amp; Platforms</h3>
+                    <div class="badges">
+                        <span class="badge">Flutter</span>
+                        <span class="badge">Git</span>
+                        <span class="badge">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title reveal">Projects</h2>
+
+            <div class="projects-grid">
+                <div class="card project-card reveal">
+                    <div class="project-number">01</div>
+                    <h3>CleanSwift</h3>
+                    <p>
+                        A cleaning service booking application designed to allow customers
+                        to book cleaners while providing separate functionality for
+                        customers, cleaners, and administrators.
+                    </p>
+                </div>
+
+                <div class="card project-card reveal">
+                    <div class="project-number">02</div>
+                    <h3>GreenChain E-Library</h3>
+                    <p>
+                        A library management system for managing books, borrowers,
+                        borrowing records, notifications, and library transactions.
+                    </p>
+                </div>
+
+                <div class="card project-card reveal">
+                    <div class="project-number">03</div>
+                    <h3>Emergency Distress App</h3>
+                    <p>
+                        An emergency assistance application with SOS functionality
+                        and location-based emergency reporting.
+                    </p>
+                </div>
+
+                <div class="card project-card reveal">
+                    <div class="project-number">04</div>
+                    <h3>Recipe Finder</h3>
+                    <p>
+                        A recipe-finding application designed to help users discover
+                        recipes and food-related information.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Contact</h2>
+            <p class="section-subtitle reveal">Feel free to reach out or connect with me.</p>
+
+            <div class="contact-grid">
+                <a href="mailto:batawang.homer@dnsc.edu.ph" class="card contact-card reveal">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <span>batawang.homer@dnsc.edu.ph</span>
+                </a>
+
+                <a href="https://github.com/batawanghomer-coder" target="_blank" rel="noopener noreferrer" class="card contact-card reveal">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 16 16" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                    </div>
+                    <h3>GitHub</h3>
+                    <span>github.com/batawanghomer-coder</span>
+                </a>
+
+                <div class="card contact-card reveal">
+                    <div class="contact-icon">📍</div>
+                    <h3>Location</h3>
+                    <span>Brgy. A.O. Floirendo, Panabo City, Davao del Norte, Philippines</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Homer Batawang &middot; BSIT 4D &middot; IT415</p>
+            <a href="https://github.com/batawanghomer-coder" target="_blank" rel="noopener noreferrer" class="footer-link">github.com/batawanghomer-coder</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
